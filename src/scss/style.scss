@@ -1,0 +1,11 @@
+@use './vendors/' as vendor;
+@use './utils/' as utils;
+@use './base/' as base;
+
+html, body, #app {
+    height: 100%;
+}
+
+body {
+    background-color: $color-bg-main;
+}
